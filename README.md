@@ -1,4 +1,4 @@
-# TYPO3 extension base_enum
+# TYPO3 extension base_excel
 
 ## What is does
 
