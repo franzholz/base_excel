@@ -6,7 +6,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title'            => 'Excel Library',
-    'description'      => 'This provides the PhpSpreadsheet library, formerly phpExcel from phpOffice. Version 1.29.0',
+    'description'      => 'This provides the PhpSpreadsheet library, formerly phpExcel from phpOffice.',
     'category'         => 'misc',
     'version'          => '2.1.0',
     'state'            => 'stable',
