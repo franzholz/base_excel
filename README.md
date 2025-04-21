@@ -6,7 +6,7 @@ This extension brings the "PhpSpreadsheet library" PHP classes "phpoffice/phpspr
 
 ## What is the origin
 
-See https://github.com/PHPOffice/PhpSpreadsheet/tree/4.1.0
+See https://github.com/PHPOffice/PhpSpreadsheet/tree/4.2.0
 
 All the library classes are available in the extension file
 *Library/phpoffice-phpspreadsheet.phar* which is automatically included
@@ -35,7 +35,7 @@ In case TYPO3 does not run in composer mode, the library directory can be rebuil
 - See chapter contributors.
 
 #### For contributors
-- Adapt the composer.json file's version of "phpoffice/phpspreadsheet" twice (e.g. 4.1).
+- Adapt the composer.json file's version of "phpoffice/phpspreadsheet" twice (e.g. 4.2).
 - To build the TER package, you must delete the file *Libraries/phpoffice-phpspreadsheet.phar*
   and run the command `composer run-script extension-release` in the extension folder for generating the archive.
 - At the beginning you will get the question:
