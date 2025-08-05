@@ -45,7 +45,7 @@
 	],
 	"require": {
 		"typo3/cms-core": "^12.4 || ^13.4",
-		"phpoffice/phpspreadsheet": "^4.3"
+		"phpoffice/phpspreadsheet": "^4.5"
 	},
 	"autoload": {
 		"psr-4": {
@@ -78,7 +78,7 @@
 		"extension-create-libs": [
 			"mkdir -p Libraries/temp",
 			"[ -f $(composer config --global home)/vendor/bin/phar-composer ] || composer global require clue/phar-composer",
-			"if [ ! -f Libraries/phpoffice-phpspreadsheet.phar ]; then cd Libraries/temp && composer require phpoffice/phpspreadsheet=^4.3 && composer config classmap-authoritative true && composer config prepend-autoloader false && composer dump-autoload; fi",
+			"if [ ! -f Libraries/phpoffice-phpspreadsheet.phar ]; then cd Libraries/temp && composer require phpoffice/phpspreadsheet=^4.5 && composer config classmap-authoritative true && composer config prepend-autoloader false && composer dump-autoload; fi",
 			"[ -f Libraries/phpoffice-phpspreadsheet.phar ] || $(composer config --global home)/vendor/bin/phar-composer build Libraries/temp/ Libraries/phpoffice-phpspreadsheet.phar",
 			"chmod -x Libraries/*.phar",
 			"rm -rf Libraries/temp"
