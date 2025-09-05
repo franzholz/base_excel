@@ -1,3 +1,9 @@
+
+
+2025-09-05 Franz Holzinger <franz@ttproducts.de>
+    * PhpSpreadsheet 5.1.0
+    * fix PKSA-64jn-3d9t-gncx Security Advisory
+
 2025-08-05 Franz Holzinger <franz@ttproducts.de>
     * PhpSpreadsheet 4.5.0
 
