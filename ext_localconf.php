@@ -5,8 +5,8 @@ use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 (static function (string $extensionKey) {
-    // Require 3rd-party libraries, in case TYPO3 does not run in composer mode
     if (!Environment::isComposerMode()) {
+        // Require 3rd-party libraries in case TYPO3 does not run in composer mode
         $pharFileName =
             ExtensionManagementUtility::extPath($extensionKey) .
             'Libraries/phpoffice-phpspreadsheet.phar';
