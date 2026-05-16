@@ -34,11 +34,6 @@ class PhpSpreadsheet implements \TYPO3\CMS\Core\SingletonInterface
      *
      * see: https://stackoverflow.com/questions/29341713/phpexcel-fast-duplicate-row
      *
-     * @param object      language object of type \JambageCom\Div2007\Base\TranslationBase
-     * @param string      value
-     * @param array       value array in the format used in TCA
-     *
-     * @return  string      text for the value if found
      */
     static public function copyRow(
         &$fromWorkspace,
