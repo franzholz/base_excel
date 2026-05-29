@@ -44,7 +44,7 @@
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"typo3/cms-core": "^12.4 || ^13.4 || 14.3",
+		"typo3/cms-core": "^12.4 || ^13.4 || ^14.3",
 		"phpoffice/phpspreadsheet": "^5.7"
 	},
 	"autoload": {
@@ -58,7 +58,7 @@
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "base_excel",
-			"version": "5.7.0",
+			"version": "5.7.1",
 			"Package": {
 				"providesPackages": {}
 			}
