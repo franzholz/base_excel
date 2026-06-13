@@ -10,7 +10,7 @@ This extension brings the “PhpSpreadsheet library” PHP classes
 What is the origin
 ------------------
 
-See https://github.com/PHPOffice/PhpSpreadsheet/tree/5.7.0
+See https://github.com/PHPOffice/PhpSpreadsheet/tree/5.8.0
 
 All the library classes are available in the extension file
 *Library/phpoffice-phpspreadsheet.phar* which is automatically included
@@ -52,7 +52,7 @@ For contributors
 ^^^^^^^^^^^^^^^^
 
 -  Adapt the composer.json file’s version of “phpoffice/phpspreadsheet”
-   twice (e.g.&nbsp;5.7).
+   twice (e.g.&nbsp;5.8).
 -  To build the TER package, you must delete the file
    *Libraries/phpoffice-phpspreadsheet.phar* and run the command
    ``composer run-script extension-release`` in the extension folder for
