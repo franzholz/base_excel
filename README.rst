@@ -64,4 +64,4 @@ For contributors
 -  Then everything will be downloaded and the resulting file
    *Library/phpoffice-phpspreadsheet.phar* will be generated.
 -  Remove the composer.json file’s dependency on “phpoffice/phpspreadsheet” for the
-   TYPO3 TER upload.
+   TYPO3 TER upload. Otherwise it cannot be installed in the Extension Manager.
